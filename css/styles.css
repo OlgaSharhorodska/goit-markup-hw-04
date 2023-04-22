@@ -289,9 +289,44 @@ clip: rect(0 0 0 0);
 overflow: hidden;
 }
 
+.principles-card::before{
+content: "";
+display: block;
+height: 112px;
+background-color: #F4F4FD;;
+border-radius: 4px;
+
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.principles-card:nth-child(1)::before
+{
+background-image: url(../images/optim_size/Principles/Vector1.png);
+}
+
+.principles-card:nth-child(2)::before
+{
+background-image: url(../images/optim_size/Principles/Vector2.png);
+}
+
+.principles-card:nth-child(3)::before
+{
+background-image: url(../images/optim_size/Principles/Vector3.png);
+}
+
+.principles-card:nth-child(4)::before
+{
+background-image: url(../images/optim_size/Principles/Vector4.png);
+}
+
+
+
+
+
 .principles
 {
-    padding: 120px 0;
+padding: 120px 0;
 }
 .principles-card
 {
