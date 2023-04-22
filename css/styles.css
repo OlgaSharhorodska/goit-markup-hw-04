@@ -302,22 +302,22 @@ background-repeat: no-repeat;
 
 .principles-card:nth-child(1)::before
 {
-background-image: url(../images/optim_size/Principles/Vector1.png);
+background-image: url(../images/optim_size/Principles/antenna.png);
 }
 
 .principles-card:nth-child(2)::before
 {
-background-image: url(../images/optim_size/Principles/Vector2.png);
+background-image: url(../images/optim_size/Principles/Vector.png);
 }
 
 .principles-card:nth-child(3)::before
 {
-background-image: url(../images/optim_size/Principles/Vector3.png);
+background-image: url(../images/optim_size/Principles/diagram.png);
 }
 
 .principles-card:nth-child(4)::before
 {
-background-image: url(../images/optim_size/Principles/Vector4.png);
+background-image: url(../images/optim_size/Principles/astronaut.png);
 }
 
 
