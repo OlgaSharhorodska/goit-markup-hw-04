@@ -224,7 +224,7 @@ letter-spacing: 0.02em;
 color: #FFFFFF;
 
 margin-left: 316px;
-margight: 316px;
+margin-right: 316px;
 max-width: 496px; 
 }
 
@@ -299,6 +299,13 @@ background-position: center;
 background-repeat: no-repeat;
 }
 
+.icon-card
+{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 8px;
+}
 .icon-principles
 {
 width: 60px;
