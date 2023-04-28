@@ -289,37 +289,22 @@ clip: rect(0 0 0 0);
 overflow: hidden;
 }
 
-.principles-card::before{
-content: "";
+.principles-card
+{
 display: block;
 height: 112px;
-background-color: #F4F4FD;;
+background-color: #F4F4FD;
 border-radius: 4px;
-
 background-position: center;
 background-repeat: no-repeat;
 }
 
-/* .principles-card:nth-child(1)::before
+.icon-principles
 {
-background-image: url(../images/optim_size/Principles/antenna.png);
+width: 60px;
+height: 64px;
+margin: auto;
 }
-
-.principles-card:nth-child(2)::before
-{
-background-image: url(../images/optim_size/Principles/Vector.png);
-}
-
-.principles-card:nth-child(3)::before
-{
-background-image: url(../images/optim_size/Principles/diagram.png);
-}
-
-.principles-card:nth-child(4)::before
-{
-background-image: url(../images/optim_size/Principles/astronaut.png);
-} */
-
 
 .principles
 {
@@ -343,7 +328,6 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--primary-text-color); 
-
 margin-bottom: 8px;
 }
 
@@ -452,7 +436,30 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 padding: 32px 16px;
 }
 
+/* ==============Customers (section 5)========== */
 
+.customers {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--primary-text-color);
+
+
+    margin-top: 120px;
+    margin-bottom: 72px;
+}
+.customers-item
+{
+margin-bottom: 120px;
+gap: 24px;
+border-radius: 4px;
+border-color: rgba(142, 143, 153, 1);
+width: 168px;
+height: 88px;
+}
 /* ===============FOOTER============= */
 
 .footer {
@@ -493,6 +500,7 @@ color: #F4F4FD;
 display: block;
 width: 264px;
 }
+
 
 /* ================Portfolio============ */
 .portfolio-page
