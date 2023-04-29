@@ -449,7 +449,11 @@ gap: 24px;
 margin-right: 16px;
 margin-left: 16px;
 }
-
+.icon-social-media
+{
+width: 16px;
+height: 16px;
+}
 .social-media-link
 {
 display: flex;
@@ -478,7 +482,11 @@ margin-top: 120px;
 margin-bottom: 72px;
 }
 
-
+.svg-icon
+{
+width: 104px;
+height: 56px;
+}
 .customers-item
 {
 display: flex;
@@ -501,6 +509,11 @@ padding-bottom: 100px;
 display: flex;
 }
 
+.svg-footer
+{
+width: 24px;
+height: 24px;
+}
 .section-footer
 {
 display: flex;    
