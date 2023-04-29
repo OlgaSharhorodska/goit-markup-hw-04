@@ -210,7 +210,7 @@ background-size: contain;
 background-position: center;
 background-repeat: no-repeat;
 
-
+margin: 0 auto;
 padding-top: 188px;
 padding-bottom: 188px;
 padding-left: auto;
@@ -292,8 +292,12 @@ clip: rect(0 0 0 0);
 overflow: hidden;
 }
 
-.principles-card
+.icon-card
 {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 8px;
 height: 112px;
 background-color: #F4F4FD;
 border-radius: 4px;
@@ -301,13 +305,6 @@ background-position: center;
 background-repeat: no-repeat;
 }
 
-.icon-card
-{
-display: flex;
-justify-content: center;
-align-items: center;
-margin-bottom: 8px;
-}
 .icon-principles
 {
 width: 60px;
@@ -506,6 +503,11 @@ display: flex;
 
 .section-footer
 {
+display: flex;    
+}
+
+.section-footer-logo
+{
 margin-right: 120px;
 }
 
@@ -542,12 +544,19 @@ display: block;
 width: 264px;
 }
 
+.social-media-block
+{
+display: block;
+}
+
 .social-media-footer
 {
+font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: rgba(255, 255, 255, 1);
+color: #FFFFFF;;
+margin-bottom: 16px;
 }
 
 /* ================Portfolio============ */
