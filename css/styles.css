@@ -204,11 +204,11 @@ rgba(46, 47, 66, 0.7),
 rgba(46, 47, 66, 0.7)),
 url(../images/optim_size/Hero-main/hero-main.jpg);
 text-align: center;
-width: 1440px;
+max-width: 1440px;
 height: 600px;
-background-size: contain;
 background-position: center;
 background-repeat: no-repeat;
+background-size: cover;
 
 margin: 0 auto;
 padding-top: 188px;
@@ -596,6 +596,7 @@ row-gap: 48px;
 
 .portfolio-item
 {
+display: block;
 width: 360;
 }
 
