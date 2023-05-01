@@ -408,6 +408,13 @@ background-color: #F4F4FD;
 padding: 120px 0;
 }
 
+.team-menu
+{
+padding-top: 32px;
+padding-bottom: 32px;
+
+}
+
 .team-list {
 font-weight: 700;
 font-size: 36px;
@@ -445,27 +452,46 @@ padding: 32px 16px 8px 16px;
 .social-media
 {
 display: flex;
+justify-content: center;
 gap: 24px;
 margin-right: 16px;
 margin-left: 16px;
 }
+
 .icon-social-media
 {
 width: 16px;
 height: 16px;
+}
+
+.social-media-item
+{
+width: 40px;
+height: 40px;
+
 }
 .social-media-link
 {
 display: flex;
 justify-content: center;
 align-items: center;
-width: 40px;
-height: 40px;
+width: 100%;
+height: 100%;
 border: var(--accent-color);
 background-color: var(--accent-color);
 border-radius: 50% 50%;
 margin-bottom: 32px;
-    
+}
+
+.icon-social-media
+{
+fill: #f4f4fd;
+}
+
+.social-media-link:focus,
+.social-media-link:hover
+{
+background-color: #404bbf;
 }
 /* ==============Customers (section 5)========== */
 
@@ -620,11 +646,7 @@ gap: 16px;
 height: 100%;
 }
 
-.social-media-link:hover
-{
-background-color: #31d0aa;
-}
-
+.social-media-link:hover,
 .social-media-link:focus
 {
 background-color: #31d0aa;
