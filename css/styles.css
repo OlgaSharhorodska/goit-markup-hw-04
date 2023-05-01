@@ -8,6 +8,7 @@
 --primary-text-color: #2E2F42;
 --accent-color: #4D5AE5;
 --secondary-text-color: #434455;
+--second-accent-color:#31d0aa;
 }
 
 *,
@@ -513,11 +514,6 @@ padding-top: 120px;
 padding-bottom: 120px;
 }
 
-.customers-menu
-{
-padding: 120px 0;
-}
-
 .customers-card
 {
 gap: 24px;
@@ -562,6 +558,13 @@ border-color: #404bbf;
 color: #404bbf;
 }
 
+
+.svg-icon:hover,
+.svg-icon:focus 
+{
+border-color: #404bbf;
+color: #404bbf;
+}
 /* ===============FOOTER============= */
 
 .footer {
@@ -649,7 +652,7 @@ height: 100%;
 .social-media-link:hover,
 .social-media-link:focus
 {
-background-color: #31d0aa;
+background-color: var(--second-accent-color);
 }
 
 .social-media-item
