@@ -540,8 +540,6 @@ width: calc((100% - 120px) / 6);
 
 .customer-link
 {
-width: 100%;
-height: 100%;
 border: 1px solid #8e8f99;
 border: radius 4px;
 display: flex;
@@ -555,7 +553,7 @@ border-radius: 4px;
 .customer-link:focus
 {
 border-color: #404bbf;
-fill: #404bbf;
+color: #404bbf;
 }
 
 
@@ -563,7 +561,7 @@ fill: #404bbf;
 .svg-icon:focus 
 {
 border-color: #404bbf;
-fill: #404bbf;
+color: #404bbf;
 }
 /* ===============FOOTER============= */
 
