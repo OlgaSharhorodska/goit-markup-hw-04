@@ -555,7 +555,7 @@ border-radius: 4px;
 .customer-link:focus
 {
 border-color: #404bbf;
-color: #404bbf;
+fill: #404bbf;
 }
 
 
@@ -563,7 +563,7 @@ color: #404bbf;
 .svg-icon:focus 
 {
 border-color: #404bbf;
-color: #404bbf;
+fill: #404bbf;
 }
 /* ===============FOOTER============= */
 
