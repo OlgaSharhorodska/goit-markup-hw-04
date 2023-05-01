@@ -483,7 +483,8 @@ margin-bottom: 72px;
 
 .customers-section
 {
-padding: 120px 0;
+padding-top: 120px;
+padding-bottom: 120px;
 }
 
 .customers-menu
@@ -525,13 +526,16 @@ display: flex;
 align-items: center;
 justify-content: center;
 color:#8e8f99;
+border-radius: 4px;
 }
 
 .customer-link:hover,
 .customer-link:focus
 {
 border-color: #404bbf;
+color: #404bbf;
 }
+
 /* ===============FOOTER============= */
 
 .footer {
