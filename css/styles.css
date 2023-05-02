@@ -214,8 +214,6 @@ background-size: cover;
 margin: 0 auto;
 padding-top: 188px;
 padding-bottom: 188px;
-padding-left: auto;
-padding-right: auto;
 }
 
 .hero-main 
@@ -306,13 +304,6 @@ background-position: center;
 background-repeat: no-repeat;
 }
 
-.icon-principles
-{
-width: 64px;
-height: 64px;
-margin: auto;
-}
-
 .principles
 {
 padding: 120px 0;
@@ -362,6 +353,13 @@ padding-bottom: 120px;
 
 .gallery-name
 {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
 margin-bottom: 72px;
 }
 
@@ -407,13 +405,6 @@ width: 1440;
 height: 732;
 background-color: #F4F4FD;
 padding: 120px 0;
-}
-
-.team-menu
-{
-padding-top: 32px;
-padding-bottom: 32px;
-
 }
 
 .team-list {
@@ -479,8 +470,6 @@ height: 100%;
 border: var(--accent-color);
 background-color: var(--accent-color);
 border-radius: 50% 50%;
-margin-bottom: 32px;
-
 }
 
 .icon-social-media
