@@ -454,7 +454,6 @@ padding: 32px 0;
 {
 display: flex;
 justify-content: center;
-gap: 24px;
 margin-right: 16px;
 margin-left: 16px;
 }
@@ -469,6 +468,7 @@ height: 16px;
 {
 width: 40px;
 height: 40px;
+gap: 24px;
 
 }
 .team-media-link
@@ -558,6 +558,12 @@ border-color: #404bbf;
 color: #404bbf;
 }
 
+.customers-item
+{
+border-color: #404bbf;
+color: #404bbf;
+}
+
 /* ===============FOOTER============= */
 
 .footer {
@@ -640,6 +646,12 @@ gap: 16px;
 .social-media-link
 {
 height: 100%;
+width: 100%;
+background-color: #4d5ae5;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .social-media-link:hover,
