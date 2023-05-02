@@ -483,7 +483,7 @@ border: var(--accent-color);
 background-color: var(--accent-color);
 border-radius: 50% 50%;
 margin-bottom: 32px;
-gap: 24px;
+
 }
 
 .icon-social-media
