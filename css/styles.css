@@ -453,7 +453,6 @@ padding: 32px 0;
 .social-media
 {
 display: flex;
-
 gap: 24px;
 }
 
@@ -628,7 +627,7 @@ color: #FFFFFF;;
 margin-bottom: 16px;
 }
 
-.social-media
+.social-media-list
 {
 display: flex;
 justify-content: center;
