@@ -526,16 +526,11 @@ fill: currentColor;
 }
 .customers-item
 {
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 24px;
-border: solid 1px #8E8F99;
-border-radius: 4px;
-border-color: rgba(142, 143, 153, 1);
+
 height: 88px;
 width: calc((100% - 120px) / 6);
 }
+
 
 .customer-link
 {
