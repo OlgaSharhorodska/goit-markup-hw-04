@@ -558,19 +558,6 @@ border-color: #404bbf;
 color: #404bbf;
 }
 
-.customers-item:hover,
-.customers-item:focus 
-{
-border-color: #404bbf;
-color: #404bbf;
-}
-
-.svg-icon:hover,
-.svg-icon:focus 
-{
-border-color: #404bbf;
-fill: #404bbf;
-}
 /* ===============FOOTER============= */
 
 .footer {
@@ -655,8 +642,8 @@ gap: 16px;
 height: 100%;
 }
 
-.social-media-item.social-media-link:hover,
-.social-media-item.social-media-link:focus
+.social-media-link:hover,
+.social-media-link:focus
 {
 background-color: var(--second-accent-color);
 }
