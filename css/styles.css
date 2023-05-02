@@ -630,7 +630,9 @@ margin-bottom: 16px;
 
 .social-media
 {
-gap: 16px;
+display: flex;
+justify-content: center;
+gap: 24px;
 }
 
 .social-media-link
